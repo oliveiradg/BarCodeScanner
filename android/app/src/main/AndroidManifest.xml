@@ -38,4 +38,13 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+
+    <!-- ... outras configurações ... -->
+
+    <!-- Adicione estas permissões para acessar a câmera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- ... outras configurações ... -->
 </manifest>
